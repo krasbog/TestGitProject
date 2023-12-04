@@ -8,6 +8,9 @@ namespace ConsoleAppGitTest
 {
     internal class Logic
     {
-        public int PowerOf2 (int a) { return a*a; }
+        public int Power (int a, int p) 
+        { 
+            return (int)Math.Pow(a,p);
+        }
     }
 }
