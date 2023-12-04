@@ -8,6 +8,6 @@ namespace ConsoleAppGitTest
 {
     public class Logic
     {
-        public static int PowerOf2 (int a) { return a*a; }
+        public static int PowerOf2(int a, int p) { return (int)Math.Pow(a, p); }
     }
 }
