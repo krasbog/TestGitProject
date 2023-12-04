@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppGitTest
 {
-    internal class Logic
+    public class Logic
     {
-        public int PowerOf2 (int a) { return a*a; }
+        public static int PowerOf2 (int a) { return a*a; }
     }
 }
